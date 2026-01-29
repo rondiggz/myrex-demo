@@ -1,0 +1,2 @@
+/*! For license information please see 8645.js.LICENSE.txt */
+"use strict";(self.webpackChunkmp_webgl=self.webpackChunkmp_webgl||[]).push([[8645],{8645:(e,n,s)=>{s.r(n),s.d(n,{messages:()=>i});const i=JSON.parse('{"/QSm1K":["Fügen Sie Notizen und Messungen hinzu,\\num das Wichtige zu erfassen."],"nlkjim":["Das Bild zeigt das Hinzufügen von Notizen und Maßen."],"pKVaQn":["Modelle verknüpfen"],"O8MQks":["Noch nichts da"],"fyeU1x":["Slider-Ansicht"],"wj0rNw":["Geteilte Ansicht"],"83zYpc":["Modelle entkoppeln"]}')}}]);

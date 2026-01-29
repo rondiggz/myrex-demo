@@ -1,0 +1,2 @@
+/*! For license information please see 9487.js.LICENSE.txt */
+"use strict";(self.webpackChunkmp_webgl=self.webpackChunkmp_webgl||[]).push([[9487],{49487:(e,i,a)=>{a.r(i),a.d(i,{messages:()=>n});const n=JSON.parse('{"/QSm1K":["Aggiungi note e misurazioni per\\nacquisire ciò che conta."],"nlkjim":["Immagine che rappresenta l\'aggiunta di note e misurazioni."],"pKVaQn":["Collega modelli"],"O8MQks":["Qui non c\'è ancora niente"],"fyeU1x":["Visualizzazione con cursore"],"wj0rNw":["Vista divisa"],"83zYpc":["Scollega i modelli"]}')}}]);

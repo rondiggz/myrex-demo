@@ -1,0 +1,2 @@
+/*! For license information please see 4847.js.LICENSE.txt */
+"use strict";(self.webpackChunkmp_webgl=self.webpackChunkmp_webgl||[]).push([[4847],{4847:(e,s,p)=>{p.r(s),p.d(s,{messages:()=>k});const k=JSON.parse('{"/QSm1K":["Добавьте примечания и измерения, чтобы запечатлеть важные элементы."],"nlkjim":["Изображение, иллюстрирующее добавление примечаний и измерений."],"pKVaQn":["Связать модели"],"O8MQks":["Здесь пока ничего нет"],"fyeU1x":["Вид ползунка"],"wj0rNw":["Разделенный экран"],"83zYpc":["Отвязать модели"]}')}}]);

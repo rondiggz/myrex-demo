@@ -1,0 +1,2 @@
+/*! For license information please see 5952.js.LICENSE.txt */
+"use strict";(self.webpackChunkmp_webgl=self.webpackChunkmp_webgl||[]).push([[5952],{85952:(e,n,t)=>{t.r(n),t.d(n,{messages:()=>s});const s=JSON.parse('{"/QSm1K":["Voeg notities en afmetingen toe om\\nvast te leggen wat van belang is."],"nlkjim":["Afbeelding die het toevoegen van notities en afmetingen illustreert."],"pKVaQn":["Modellen koppelen"],"O8MQks":["Hier is nog niets"],"fyeU1x":["Schuifweergave"],"wj0rNw":["Gesplitste weergave"],"83zYpc":["Modellen ontkoppelen"]}')}}]);
