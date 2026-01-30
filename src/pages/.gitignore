@@ -1,0 +1,12 @@
+node_modules
+dist
+build
+.vscode
+.DS_Store
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.zip
+*.tar
+*.gz
