@@ -4,7 +4,6 @@ import {
   Eye, 
   Box, 
   BookOpen, 
-  MapPin, 
   Calendar, 
   Users, 
   Settings 
@@ -18,7 +17,6 @@ export default function Layout() {
     { name: 'VISION', href: '/vision', icon: Eye },
     { name: 'Assets', href: '/assets', icon: Box },
     { name: 'Media Library', href: '/media', icon: BookOpen },
-    { name: 'Marks Editor', href: '/marks', icon: MapPin },
     { name: 'Calendar', href: '/calendar', icon: Calendar },
     { name: 'Users', href: '/users', icon: Users },
     { name: 'Settings', href: '/settings', icon: Settings },
@@ -26,9 +24,11 @@ export default function Layout() {
 
   return (
     <div className="flex h-screen bg-[#0a0a0a]">
-      {/* Sidebar */}
+      
+      {/* SIDEBAR — FIXED, NON-COLLAPSING */}
       <div className="w-64 bg-[#1a1a1a] border-r border-[#2a2a2a] flex flex-col">
-        {/* Mikron Logo - Top */}
+        
+        {/* Mikron Logo */}
         <div className="p-6 border-b border-[#2a2a2a] flex items-center justify-center">
           <img src="/Mikron.png" alt="Mikron" className="h-10" />
         </div>
@@ -56,21 +56,28 @@ export default function Layout() {
         </nav>
       </div>
 
-      {/* Main Content */}
+      {/* MAIN CONTENT */}
       <div className="flex-1 flex flex-col overflow-hidden">
-        {/* Header */}
+        
+        {/* HEADER */}
         <header className="h-16 bg-[#1a1a1a] border-b border-[#2a2a2a] flex items-center justify-between px-6">
+          
+          {/* Centered Search Bar */}
           <div className="flex-1 flex justify-center">
             <input
               type="text"
-              placeholder="Search assets, marks, media, maintenance records..."
-              className="w-full max-w-2xl bg-[#0a0a0a] text-white px-4 py-2 rounded-lg border border-[#2a2a2a] focus:border-blue-500 focus:outline-none"
+              placeholder="Search maintenance, assets, media, marks..."
+              className="w-full max-w-3xl bg-[#0a0a0a] text-white px-5 py-3 rounded-lg border border-[#2a2a2a] focus:border-blue-500 focus:outline-none text-sm"
             />
           </div>
+
+          {/* Right Side: Notifications + User */}
           <div className="flex items-center gap-4">
             <button className="text-gray-400 hover:text-white text-xl">
               🔔
             </button>
+
+            {/* Logged-in User (Ron) */}
             <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white text-sm font-bold">
               R
             </div>

@@ -63,36 +63,7 @@ export default function MarksEditor() {
   const [stemLength, setStemLength] = useState(0.3)
 
   useEffect(() => {
-    const iframe = iframeRef.current
-    if (!iframe) return
-
-    const onLoad = async () => {
-      try {
-        const showcaseWindow = iframe.contentWindow
-        if (!showcaseWindow) return
-
-        const mpSdk = await showcaseWindow.MP_SDK.connect(
-          showcaseWindow,
-          '76zueyye7kqqag4uxtw7kem5d',
-          ''
-        )
-
-        setSdk(mpSdk)
-
-        await mpSdk.App.state.waitUntil(
-          (state: any) => state.phase === mpSdk.App.Phase.PLAYING
-        )
-
-        setIsReady(true)
-        loadMarks()
-
-      } catch (error) {
-        console.error('[MARKS EDITOR] Connection failed:', error)
-      }
-    }
-
-    iframe.addEventListener('load', onLoad)
-    return () => iframe.removeEventListener('load', onLoad)
+    // ...existing code...
   }, [])
 
   const loadMarks = async () => {
